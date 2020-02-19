@@ -1,0 +1,36 @@
+void Queue::Enqueue()
+{
+
+ struct node *p,*q;
+ p=new node;
+ cout<<"ENTER PATIENT NAME\t";
+ cin>>p->name;
+ cout<<"\nENTER PRIRITOY\t";
+ cin>>p->data;
+
+ p->next=NULL;
+ if(head==NULL)
+       {
+  head=p;
+ }
+
+ else
+        {
+  if(p->data>head->data)
+               {
+   p->next=head;
+   head=p;
+  }
+
+  else
+                {
+
+   q=head;
+   while(q->next!=NULL && (p->data <= (q->next->data)))
+    q=q->next;
+
+   p->next=q->next;
+   q->next=p;
+  }
+ }
+}
