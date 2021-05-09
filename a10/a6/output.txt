@@ -1,0 +1,642 @@
+OUTPUT ::
+
+****************************************************************
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+3.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 1
+
+Enter no of users  :  10
+
+Enter detail of 1th user
+
+Enter name  :  Ria
+
+Enter DOB  (dd/mm/yy) :  12 03 1999
+
+Enter detail of 2th user
+
+Enter name  :  Isha
+
+Enter DOB  (dd/mm/yy) :  4 3 1999
+
+Enter detail of 3th user
+
+Enter name  :  Usha
+
+Enter DOB  (dd/mm/yy) :  6 7 2000
+
+Enter detail of 4th user
+
+Enter name  :  Ravi
+
+Enter DOB  (dd/mm/yy) :  6 4 1999
+
+Enter detail of 5th user
+
+Enter name  :  Ram
+
+Enter DOB  (dd/mm/yy) :  9 7 1998
+
+Enter detail of 6th user
+
+Enter name  :  Yash
+
+Enter DOB  (dd/mm/yy) :  4 12 2000
+
+Enter detail of 7th user
+
+Enter name  :  Om
+
+Enter DOB  (dd/mm/yy) :  6 12 2000
+
+Enter detail of 8th user
+
+Enter name  :  Hari
+
+Enter DOB  (dd/mm/yy) :  19 11 1999
+
+Enter detail of 9th user
+
+Enter name  :  Sid
+
+Enter DOB  (dd/mm/yy) :  20 3 2000
+
+Enter detail of 10th user
+
+Enter name  :  Avi
+
+Enter DOB  (dd/mm/yy) :  2 3 2000
+
+Enter no of friends of Ria  :  2
+
+Enter Name of friends from following list  :
+
+1] Isha
+2] Usha
+3] Ravi
+4] Ram
+5] Yash
+6] Om
+7] Hari
+8] Sid
+9] Avi
+
+
+ 1)Isha
+
+Enter no of comments  by Isha to Ria :   3
+
+Enter no of comments  by Ria to Isha :   2
+
+ 2)om
+
+User not found
+
+Enter no of friends of Isha  :  3
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Usha
+3] Ravi
+4] Ram
+5] Yash
+6] Om
+7] Hari
+8] Sid
+9] Avi
+
+
+ 1)Ria
+
+ 2)Usha
+
+Enter no of comments  by Usha to Isha :   6
+
+Enter no of comments  by Isha to Usha :   3
+
+ 3)Om
+
+Enter no of comments  by Om to Isha :   0
+
+Enter no of comments  by Isha to Om :   5
+
+Enter no of friends of Usha  :  0
+
+Enter no of friends of Ravi  :  5
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ram
+5] Yash
+6] Om
+7] Hari
+8] Sid
+9] Avi
+
+
+ 1)Ria
+
+Enter no of comments  by Ria to Ravi :   8
+
+Enter no of comments  by Ravi to Ria :   9
+
+ 2)Sid
+
+Enter no of comments  by Sid to Ravi :   5
+
+Enter no of comments  by Ravi to Sid :   5
+
+ 3)Avi
+
+Enter no of comments  by Avi to Ravi :   5
+
+Enter no of comments  by Ravi to Avi :   3
+
+ 4)Om
+
+Enter no of comments  by Om to Ravi :   3
+
+Enter no of comments  by Ravi to Om :   1
+
+ 5)Hari
+
+Enter no of comments  by Hari to Ravi :   0
+
+Enter no of comments  by Ravi to Hari :   1
+
+Enter no of friends of Ram  :  1
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Yash
+6] Om
+7] Hari
+8] Sid
+9] Avi
+
+
+ 1)Ria
+
+Enter no of comments  by Ria to Ram :   12
+
+Enter no of comments  by Ram to Ria :   2
+
+Enter no of friends of Yash  :  3
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Ram
+6] Om
+7] Hari
+8] Sid
+9] Avi
+
+
+ 1)Ria
+
+Enter no of comments  by Ria to Yash :   4
+
+Enter no of comments  by Yash to Ria :   1
+
+ 2)Ram
+
+Enter no of comments  by Ram to Yash :   5
+
+Enter no of comments  by Yash to Ram :   1
+
+ 3)Avi
+
+Enter no of comments  by Avi to Yash :   5
+
+Enter no of comments  by Yash to Avi :   2
+
+Enter no of friends of Om  :  0
+
+Enter no of friends of Hari  :  4
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Ram
+6] Yash
+7] Om
+8] Sid
+9] Avi
+
+
+ 1)Ria
+
+Enter no of comments  by Ria to Hari :   2
+
+Enter no of comments  by Hari to Ria :   4
+
+ 2)Isha
+
+Enter no of comments  by Isha to Hari :   20
+
+Enter no of comments  by Hari to Isha :   7
+
+ 3)Yash
+
+Enter no of comments  by Yash to Hari :   3
+
+Enter no of comments  by Hari to Yash :   3
+
+ 4)Nina
+
+User not found
+
+Enter no of friends of Sid  :  1
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Ram
+6] Yash
+7] Om
+8] Hari
+9] Avi
+
+
+ 1)Usha
+
+Enter no of comments  by Usha to Sid :   9
+
+Enter no of comments  by Sid to Usha :   13
+
+Enter no of friends of Avi  :  3
+
+Enter Name of friends from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Ram
+6] Yash
+7] Om
+8] Hari
+9] Sid
+
+
+ 1)Ria
+
+Enter no of comments  by Ria to Avi :   5
+
+Enter no of comments  by Avi to Ria :   8
+
+ 2)Ram
+
+Enter no of comments  by Ram to Avi :   4
+
+Enter no of comments  by Avi to Ram :   4
+
+ 3)Om
+
+Enter no of comments  by Om to Avi :   5
+
+Enter no of comments  by Avi to Om :   0
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 2
+------------------------------------------------------------------------------------------------------
+
+| 0|       Ria|12/ 3/1999|    -->  |      Isha| 3|    -->  
+|      Ravi| 9|    -->  |       Ram| 2|    -->  
+|      Yash| 1|    -->  |      Hari| 4|    -->  
+|       Avi| 8|
+
+| 1|      Isha| 4/ 3/1999|    -->  |       Ria| 2|    -->  
+|      Usha| 6|    -->  |        Om| 0|    -->  
+|      Hari| 7|
+
+| 2|      Usha| 6/ 7/2000|    -->  |      Isha| 3|    -->  
+|       Sid|13|
+
+| 3|      Ravi| 6/ 4/1999|    -->  |       Ria| 8|    -->  
+|       Sid| 5|    -->  |       Avi| 5|    -->  
+|        Om| 3|    -->  |      Hari| 0|
+
+| 4|       Ram| 9/ 7/1998|    -->  |       Ria|12|    -->  
+|      Yash| 1|    -->  |       Avi| 4|
+
+| 5|      Yash| 4/12/2000|    -->  |       Ria| 4|    -->  
+|       Ram| 5|    -->  |       Avi| 5|    -->  
+|      Hari| 3|
+
+| 6|        Om| 6/12/2000|    -->  |      Isha| 5|    -->  
+|      Ravi| 1|    -->  |       Avi| 0|
+
+| 7|      Hari|19/11/1999|    -->  |      Ravi| 1|    -->  
+|       Ria| 2|    -->  |      Isha|20|    -->  
+|      Yash| 3|
+
+| 8|       Sid|20/ 3/2000|    -->  |      Ravi| 5|    -->  
+|      Usha| 9|
+
+| 9|       Avi| 2/ 3/2000|    -->  |      Ravi| 3|    -->  
+|      Yash| 2|    -->  |       Ria| 5|    -->  |       Ram| 4|    -->  |        Om| 5|
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 5
+Ria --> Avi --> Om --> Hari --> Yash --> Ram --> Ravi --> Sid --> Usha --> Isha -->
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 6
+Ria --> Isha --> Ravi --> Ram --> Yash --> Hari --> Avi --> Usha --> Om --> Sid -->
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 7
+
+Ria has 6 friends
+
+Isha has 4 friendss
+
+Usha has 2 friendss
+
+Ravi has 5 friendss
+
+Ram has 3 friendss
+
+Yash has 4 friendss
+
+Om has 3 friendss
+
+Hari has 4 friendss
+
+Sid has 2 friendss
+
+Avi has 5 friendss
+
+
+User who got maximum friends =  Ria
+Total friends =  6
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 8
+
+Ria posted 33 comments
+
+Isha posted 31 comments
+
+Usha posted 15 comments
+
+Ravi posted 19 comments
+
+Ram posted 11 comments
+
+Yash posted 7 comments
+
+Om posted 8 comments
+
+Hari posted 14 comments
+
+Sid posted 18 comments
+
+Avi posted 22 comments
+
+
+User who posted maximum comments =  Ria
+Total friends =  33
+
+User who posted minimum comments =  Yash
+Total friends =  7
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 9
+
+Enter month  :  3
+
+1] Ria
+2] Isha
+3] Sid
+4] Avi
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 3
+
+Enter name  :  Yara
+
+Enter DOB   :  3 8 2000
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 2
+------------------------------------------------------------------------------------------------------
+
+| 0|       Ria|12/ 3/1999|    -->  |      Isha| 3|    -->  |      Ravi| 9|    -->  |       Ram| 2|    -->  |      Yash| 1|    -->  |      Hari| 4|    -->  |       Avi| 8|
+| 1|      Isha| 4/ 3/1999|    -->  |       Ria| 2|    -->  |      Usha| 6|    -->  |        Om| 0|    -->  |      Hari| 7|
+| 2|      Usha| 6/ 7/2000|    -->  |      Isha| 3|    -->  |       Sid|13|
+| 3|      Ravi| 6/ 4/1999|    -->  |       Ria| 8|    -->  |       Sid| 5|    -->  |       Avi| 5|    -->  |        Om| 3|    -->  |      Hari| 0|
+| 4|       Ram| 9/ 7/1998|    -->  |       Ria|12|    -->  |      Yash| 1|    -->  |       Avi| 4|
+| 5|      Yash| 4/12/2000|    -->  |       Ria| 4|    -->  |       Ram| 5|    -->  |       Avi| 5|    -->  |      Hari| 3|
+| 6|        Om| 6/12/2000|    -->  |      Isha| 5|    -->  |      Ravi| 1|    -->  |       Avi| 0|
+| 7|      Hari|19/11/1999|    -->  |      Ravi| 1|    -->  |       Ria| 2|    -->  |      Isha|20|    -->  |      Yash| 3|
+| 8|       Sid|20/ 3/2000|    -->  |      Ravi| 5|    -->  |      Usha| 9|
+| 9|       Avi| 2/ 3/2000|    -->  |      Ravi| 3|    -->  |      Yash| 2|    -->  |       Ria| 5|    -->  |       Ram| 4|    -->  |        Om| 5|
+|10|      Yara| 3/ 8/2000|
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 4
+
+Whose friend ? Yara
+
+Enter name from following list  :
+
+1] Ria
+2] Isha
+3] Usha
+4] Ravi
+5] Ram
+6] Yash
+7] Om
+8] Hari
+9] Sid
+10] Avi
+11] Yara
+
+Ria
+
+Enter no of comments  by Yara to Ria :   4
+
+Enter no of comments  by Ria to Yara :   3
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  :: 2
+------------------------------------------------------------------------------------------------------
+
+| 0|       Ria|12/ 3/1999|    -->  |      Isha| 3|    -->  |      Ravi| 9|    -->  |       Ram| 2|    -->  |      Yash| 1|    -->  |      Hari| 4|    -->  |       Avi| 8|    -->  |      Yara| 4|
+| 1|      Isha| 4/ 3/1999|    -->  |       Ria| 2|    -->  |      Usha| 6|    -->  |        Om| 0|    -->  |      Hari| 7|
+| 2|      Usha| 6/ 7/2000|    -->  |      Isha| 3|    -->  |       Sid|13|
+| 3|      Ravi| 6/ 4/1999|    -->  |       Ria| 8|    -->  |       Sid| 5|    -->  |       Avi| 5|    -->  |        Om| 3|    -->  |      Hari| 0|
+| 4|       Ram| 9/ 7/1998|    -->  |       Ria|12|    -->  |      Yash| 1|    -->  |       Avi| 4|
+| 5|      Yash| 4/12/2000|    -->  |       Ria| 4|    -->  |       Ram| 5|    -->  |       Avi| 5|    -->  |      Hari| 3|
+| 6|        Om| 6/12/2000|    -->  |      Isha| 5|    -->  |      Ravi| 1|    -->  |       Avi| 0|
+| 7|      Hari|19/11/1999|    -->  |      Ravi| 1|    -->  |       Ria| 2|    -->  |      Isha|20|    -->  |      Yash| 3|
+| 8|       Sid|20/ 3/2000|    -->  |      Ravi| 5|    -->  |      Usha| 9|
+| 9|       Avi| 2/ 3/2000|    -->  |      Ravi| 3|    -->  |      Yash| 2|    -->  |       Ria| 5|    -->  |       Ram| 4|    -->  |        Om| 5|
+|10|      Yara| 3/ 8/2000|    -->  |       Ria| 3|
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+MENU
+1.CREATE GRAPH
+2.SHOW GRAPH
+.ADD NEW USER
+4.ADD FRIEND
+5.DFS
+6.BFS
+7.USER WITH MAXIMUM FRIENDS
+8.USER WITH MAXIMUM AND MINIMUM COMMENTS
+9.USERS HAVING BIRTHDAY IN THE SAME MONTH
+10.EXIT
+Enter choice  ::
